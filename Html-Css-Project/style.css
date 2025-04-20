@@ -1,0 +1,73 @@
+/* Base Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+/* Hero Section */
+.hero {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+}
+.hero p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.cta-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #e67e22;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*.feature img {
+    width: 60px;
+    height: 60px;
+}*/
+.img-div {
+    width: 100%;
+}
+.img-div img {
+    width: 100%;
+}
+.feature h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer a {
+    color: #e67e22;
+}
