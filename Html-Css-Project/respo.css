@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #0066cc), #003366;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .cta-btn {
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Features Section */
+.features {
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    background: #f4f4f4;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Footer Section */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
