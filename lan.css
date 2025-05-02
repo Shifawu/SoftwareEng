@@ -71,13 +71,34 @@ body {
   text-align: center;
 }
 
-#features ul {
-  list-style: none;
-  padding: 1rem 0;
+.feature-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-#features li {
-  padding: 0.5rem 0;
+.feature-box {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.feature-box h4 {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* Contact Section */
@@ -117,4 +138,4 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
-}
+  }
